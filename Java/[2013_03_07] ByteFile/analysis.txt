@@ -1,0 +1,7 @@
+BANDWIDTH	|DB1		|DB2		|DB3		|AVERAGE
+>520MHz		[30dB		[20dB		[10dB		|
+--Capacity:	|2069bit/s	|1980bit/s	|1798bit/s	|1949bit/s
+--2% Loss:	|2027bit/s	|1940bit/s	|1762bit/s	|1910bit/s
+>390MHz		[30dB		[22dB		[18dB		|
+--Capacity:	|1551bit/s	|1501bit/s	|1466bit/s	|1506bit/s
+--2% Loss:	|1519bit/s	|1470bit/s	|1436bit/s	|1475bit/s

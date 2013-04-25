@@ -1,0 +1,6 @@
+Oh, what a life we live. Money runs everything.
+yes	no
+no	yes
+How much? $1.00? $2.00? $3.00!
+We see "&&" for "and", and "||" for "or". That's money, about $3.14 in my hand.
+Well, I guess this solves almost nothing?

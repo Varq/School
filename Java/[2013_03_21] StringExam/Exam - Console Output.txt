@@ -1,0 +1,7 @@
+File name:		input.txt
+Shortest line size:	7
+Longest line size:	167
+Differece in size:	160
+Character Count:	1158
+Word Count:		194
+Block Count:		5

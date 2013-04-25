@@ -1,0 +1,42 @@
+===Initial List===
+ID:	667
+Name:	Lucy Fur
+Grade:	67
+===
+ID:	668
+Name:	Gee Brow
+Grade:	97
+===
+ID:	669
+Name:	Reds Macrogi
+Grade:	50
+===
+ID:	670
+Name:	Space Collisions
+Grade:	100
+===
+ID:	671
+Name:	Higgs Boison
+Grade:	88
+===
+===Edited List===
+ID:	668
+Name:	Gee Brow
+Grade:	97
+===
+ID:	669
+Name:	Reds Macrogi
+Grade:	50
+===
+ID:	223
+Name:	Risk On Acove
+Grade:	0
+===
+ID:	670
+Name:	Space Collisions
+Grade:	100
+===
+ID:	671
+Name:	Higgs Boison
+Grade:	88
+===

@@ -1,0 +1,202 @@
+What would you like to do?
+1. Create a new database.
+2. Edit an existing database.
+3. Read an existing database.
+4. Quit.
+>> 1
+What do you want to name it? test.dat
+test.dat already exists. Overwrite? [y/n] y
+How many records to input? 5
+Set the tax (in percentage): 25
+R-0 Last Name: Egbert
+R-0 First Name: John
+R-0 Years Employed: 3
+R-0 Age: 22
+R-0 Income: 24845
+R-1 Last Name: Vantas
+R-1 First Name: Karkat
+R-1 Years Employed: 7
+R-1 Age: 31
+R-1 Income: 31002
+R-2 Last Name: Strider
+R-2 First Name: Dave
+R-2 Years Employed: 2
+R-2 Age: 22
+R-2 Income: 22323
+R-3 Last Name: Leijon
+R-3 First Name: Nepeta
+R-3 Years Employed: 1
+R-3 Age: 19
+R-3 Income: 19921
+R-4 Last Name: Harley
+R-4 First Name: Jade
+R-4 Years Employed: 3
+R-4 Age: 21
+R-4 Income: 24344
+test.dat write complete!
+
+What would you like to do?
+1. Create a new database.
+2. Edit an existing database.
+3. Read an existing database.
+4. Quit.
+>> 3
+What file do you want to read? test.dat
+LAST	FIRST	YEAR	AGE	INCOME	TAX
+Egbert	John	3	22	24845.0	6211.25
+Vantas	Karkat	7	31	31002.0	7750.5
+Strider	Dave	2	22	22323.0	5580.75
+Leijon	Nepeta	1	19	19921.0	4980.25
+Harley	Jade	3	21	24344.0	6086.0
+test.dat read complete!
+
+What would you like to do?
+1. Create a new database.
+2. Edit an existing database.
+3. Read an existing database.
+4. Quit.
+>> 2
+What file to edit? 
+test.dat
+LAST	FIRST	YEAR	AGE	INCOME	TAX
+Egbert	John	3	22	24845.0	6211.25
+Vantas	Karkat	7	31	31002.0	7750.5
+Strider	Dave	2	22	22323.0	5580.75
+Leijon	Nepeta	1	19	19921.0	4980.25
+Harley	Jade	3	21	24344.0	6086.0
+Editing options:
+1. Last name
+2. First name
+3. Years employed
+4. Age
+5. Income
+6. Tax
+7. End Editing
+>> 5
+Which record? 1
+What income? 25000
+LAST	FIRST	YEAR	AGE	INCOME	TAX
+Egbert	John	3	22	24845.0	6211.25
+Vantas	Karkat	7	31	25000.0	6250.0
+Strider	Dave	2	22	22323.0	5580.75
+Leijon	Nepeta	1	19	19921.0	4980.25
+Harley	Jade	3	21	24344.0	6086.0
+Editing options:
+1. Last name
+2. First name
+3. Years employed
+4. Age
+5. Income
+6. Tax
+7. End Editing
+>> 5
+Which record? 1
+What income? 33000
+LAST	FIRST	YEAR	AGE	INCOME	TAX
+Egbert	John	3	22	24845.0	6211.25
+Vantas	Karkat	7	31	33000.0	8250.0
+Strider	Dave	2	22	22323.0	5580.75
+Leijon	Nepeta	1	19	19921.0	4980.25
+Harley	Jade	3	21	24344.0	6086.0
+Editing options:
+1. Last name
+2. First name
+3. Years employed
+4. Age
+5. Income
+6. Tax
+7. End Editing
+>> 5
+Which record? 0
+What income? 25000
+LAST	FIRST	YEAR	AGE	INCOME	TAX
+Egbert	John	3	22	25000.0	6250.0
+Vantas	Karkat	7	31	33000.0	8250.0
+Strider	Dave	2	22	22323.0	5580.75
+Leijon	Nepeta	1	19	19921.0	4980.25
+Harley	Jade	3	21	24344.0	6086.0
+Editing options:
+1. Last name
+2. First name
+3. Years employed
+4. Age
+5. Income
+6. Tax
+7. End Editing
+>> 5
+Which record? 2
+What income? 23000
+LAST	FIRST	YEAR	AGE	INCOME	TAX
+Egbert	John	3	22	25000.0	6250.0
+Vantas	Karkat	7	31	33000.0	8250.0
+Strider	Dave	2	22	23000.0	5750.0
+Leijon	Nepeta	1	19	19921.0	4980.25
+Harley	Jade	3	21	24344.0	6086.0
+Editing options:
+1. Last name
+2. First name
+3. Years employed
+4. Age
+5. Income
+6. Tax
+7. End Editing
+>> 5
+Which record? 3
+What income? 20000
+LAST	FIRST	YEAR	AGE	INCOME	TAX
+Egbert	John	3	22	25000.0	6250.0
+Vantas	Karkat	7	31	33000.0	8250.0
+Strider	Dave	2	22	23000.0	5750.0
+Leijon	Nepeta	1	19	20000.0	5000.0
+Harley	Jade	3	21	24344.0	6086.0
+Editing options:
+1. Last name
+2. First name
+3. Years employed
+4. Age
+5. Income
+6. Tax
+7. End Editing
+>> 5
+Which record? 4
+What income? 25000
+LAST	FIRST	YEAR	AGE	INCOME	TAX
+Egbert	John	3	22	25000.0	6250.0
+Vantas	Karkat	7	31	33000.0	8250.0
+Strider	Dave	2	22	23000.0	5750.0
+Leijon	Nepeta	1	19	20000.0	5000.0
+Harley	Jade	3	21	25000.0	6250.0
+Editing options:
+1. Last name
+2. First name
+3. Years employed
+4. Age
+5. Income
+6. Tax
+7. End Editing
+>> 6
+What tax? 26
+LAST	FIRST	YEAR	AGE	INCOME	TAX
+Egbert	John	3	22	25000.0	6500.0
+Vantas	Karkat	7	31	33000.0	8580.0
+Strider	Dave	2	22	23000.0	5980.0
+Leijon	Nepeta	1	19	20000.0	5200.0
+Harley	Jade	3	21	25000.0	6500.0
+Editing options:
+1. Last name
+2. First name
+3. Years employed
+4. Age
+5. Income
+6. Tax
+7. End Editing
+>> 7
+test.dat editing complete!
+
+What would you like to do?
+1. Create a new database.
+2. Edit an existing database.
+3. Read an existing database.
+4. Quit.
+>> 4
+~Goodbye~

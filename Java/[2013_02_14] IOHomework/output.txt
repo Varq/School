@@ -1,0 +1,14 @@
+Hello, this is a test.
+This test is for a computer science assignment.
+The requirments for the assignment included keyboard input.
+I wonder if this is working properly
+Whoops, I forgot a period, I guess it's not a big deal.
+How much more am I supposed to write?
+I think about 6 or so more lines.
+It's getting pretty close to the end here.
+Let's sing a song to pass the time.
+Row, row, row your boat~
+Gently down the stream~
+Merrily, Merrily, Merrily, Merrily~
+Life is but a dream~
+This should be enough! Good bye~
