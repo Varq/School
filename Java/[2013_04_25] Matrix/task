@@ -1,0 +1,20 @@
+Compute the offset and the location of the following elements of a 2 dimensional array as declared by
+int a[][] = new int[12][10];
+with the base address
+FFFB9CBE
+
+int[i][j]
+offset = (j * nbytes) + (i * columnsize * nbytes)
+
+baseAddress				= 0xFFFB9CBE
+lastOffsetInDecimal		= (10 * 4) + (12 * 10 * 4) = 40 + 480 = 520
+lastOffsetInHexadecimal	= 520/256 = 2 + (8/256) = 0x208
+lastAddress				= 0xFFFB9CBE + 0x208 = 0xFFFB9EC6
+
+offset[5][4]			= (4 * 4) + (5 * 10 * 4) = 16 + 200 = 216
+offsetInHexadecimal		= 216/16 = 13 + (8/16) = 0xD8
+address					= 0xFFFB9CBE + 0xD8 = 0xFFFB9D86
+
+offset[3][6]			= (6 * 4) + (3 * 10 * 4) = 24 + 120 = 144
+offsetInHexadecimal		= 144/16 = 9 + (0/16) = 0x90
+address					= 0xFFFB9CBE + 0x90 = 0xFFFB9D4E

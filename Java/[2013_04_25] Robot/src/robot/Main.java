@@ -1,5 +1,5 @@
 /**
- * Test.java
+ * Main.java
  * [2013_04_24]
  * JASON KHAMPHILA
  * 
@@ -8,18 +8,18 @@
 
 package robot;
 
-public class Test
+public class Main
 {
 	public static void main(String[] args)
 	{
-		int itemsToSort = 100; // Number of items for the robot to sort
+		int itemsToSort = 20; // Number of items for the robot to sort
 		int stationCapacity = 8; // Max capacity each station can hold
 		
 		// Create random Items to put in slot 0
 		LinkedList<Item> items = new LinkedList<Item>();
 		for(int i = 0; i < itemsToSort; i++)
 		{
-			int id = (int)(Math.random() * 99_999_999);
+			int id = (int)(Math.random() * (Item.MAX_SERIAL_NUMBER + 1));
 			int weight = (int)(Math.random() * 1000) + 1;
 			
 			items.addLast(new Item(id, weight));

@@ -11,8 +11,12 @@ package robot;
 
 public class Item
 {
-	int serialNumber;
-	int weight;
+	// Used for random item generation and toString padded numbers
+	public static final int MAX_SERIAL_NUMBER = 99_999;
+	public static final int MAX_WEIGHT = 1000;
+	
+	private int serialNumber;
+	private int weight;
 	
 	public Item()
 	{
@@ -33,8 +37,8 @@ public class Item
 	
 	public void setSerialNumber(int serialNumber)
 	{
-		if(serialNumber > 100_000_000 || serialNumber < 0)
-			throw new IndexOutOfBoundsException("Serial must be positive and less than 100_000_000");
+		if(serialNumber > MAX_SERIAL_NUMBER || serialNumber < 0)
+			throw new IndexOutOfBoundsException("Serial must be positive and less than " + (MAX_SERIAL_NUMBER + 1));
 		
 		this.serialNumber = serialNumber;
 	}
@@ -52,7 +56,7 @@ public class Item
 	// Return the first digit in the serial number
 	public int getMostSignificantBit()
 	{
-		if(serialNumber <= 9_999_999)
+		if(serialNumber <= (MAX_SERIAL_NUMBER / 10))
 			return 0;
 		
 		int i = serialNumber;
@@ -72,8 +76,18 @@ public class Item
 	
 	public String toString()
 	{
-		String number = new String(String.valueOf(getSerialNumber()));
-		String paddedSerial = ("00000000" + number).substring(number.length());
-		return "ID: " + paddedSerial + "\tWeight: " + getWeight();
+		String numberToPad = new String(String.valueOf(getSerialNumber()));
+		String weightToPad = new String(String.valueOf(getWeight()));
+		
+		String serialPad = new String();
+		String weightPad = new String();
+		for(int i = 0; i < String.valueOf(MAX_SERIAL_NUMBER).length(); i++)
+			serialPad += '0';
+		for(int i = 0; i < String.valueOf(MAX_WEIGHT).length(); i++)
+			weightPad += '0';
+			
+		String paddedSerial = (serialPad + numberToPad).substring(numberToPad.length());
+		String paddedWeight = (weightPad + weightToPad).substring(weightToPad.length());
+		return "ID: " + paddedSerial + "\tWeight: " + paddedWeight;
 	}
 }
