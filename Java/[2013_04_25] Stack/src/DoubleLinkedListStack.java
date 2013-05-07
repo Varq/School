@@ -3,8 +3,15 @@
  * [2013_05_05]
  * Jason Khamphila
  * 
+ * A stack class which stores items in a double linked list.
+ * 
+ * All code can be found at:
+ * https://github.com/Varq/School/tree/master/Java/%5B2013_04_25%5D%20Stack/src
+ * or
+ * http://goo.gl/7NoCG
  */
 
+import java.io.IOException;
 import java.util.NoSuchElementException;
 
 public class DoubleLinkedListStack<T> extends Stack<T>
@@ -17,7 +24,7 @@ public class DoubleLinkedListStack<T> extends Stack<T>
 		top = new Node(null, null, null);
 	}
 	
-	public DoubleLinkedListStack(int size)
+	public DoubleLinkedListStack(int size) throws IOException
 	{
 		super(size);
 		top = new Node(null, null, null);

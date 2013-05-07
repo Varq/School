@@ -3,9 +3,15 @@
  * [2013_05_05]
  * Jason Khamphila
  * 
+ * A stack class which stores items in an array.
  * 
+ * All code can be found at:
+ * https://github.com/Varq/School/tree/master/Java/%5B2013_04_25%5D%20Stack/src
+ * or
+ * http://goo.gl/7NoCG
  */
 
+import java.io.IOException;
 import java.util.NoSuchElementException;
 
 public class ArrayStack<T> extends Stack<T>
@@ -13,7 +19,7 @@ public class ArrayStack<T> extends Stack<T>
 	T[] array;
 	
 	@SuppressWarnings("unchecked")
-	public ArrayStack(int size)
+	public ArrayStack(int size) throws IOException
 	{
 		super(size);
 		array = (T[]) new Object[size];

@@ -1,0 +1,94 @@
+Current Infix Expression: null
+Current Postfix Expression: null
+1 > Enter new infix expression
+2 > Evaluate expression by array
+3 > Evaluate expression by single linked list
+4 > Evaluate expression by double linked list
+5 > Quit
+>> 1
+Enter a new expression: 2 + 2
+
+Current Infix Expression: 2 + 2
+Current Postfix Expression: 2 2 + 
+1 > Enter new infix expression
+2 > Evaluate expression by array
+3 > Evaluate expression by single linked list
+4 > Evaluate expression by double linked list
+5 > Quit
+>> 2
+Evaluation: 4.0
+Time Elapsed: 2366801
+
+Current Infix Expression: 2 + 2
+Current Postfix Expression: 2 2 + 
+1 > Enter new infix expression
+2 > Evaluate expression by array
+3 > Evaluate expression by single linked list
+4 > Evaluate expression by double linked list
+5 > Quit
+>> 3
+Evaluation: 4.0
+Time Elapsed: 1008744
+
+Current Infix Expression: 2 + 2
+Current Postfix Expression: 2 2 + 
+1 > Enter new infix expression
+2 > Evaluate expression by array
+3 > Evaluate expression by single linked list
+4 > Evaluate expression by double linked list
+5 > Quit
+>> 4
+Evaluation: 4.0
+Time Elapsed: 1145629
+
+Current Infix Expression: 2 + 2
+Current Postfix Expression: 2 2 + 
+1 > Enter new infix expression
+2 > Evaluate expression by array
+3 > Evaluate expression by single linked list
+4 > Evaluate expression by double linked list
+5 > Quit
+>> 1
+Enter a new expression: 1+2(3*2+4(10-10)+2)
+
+Current Infix Expression: 1+2(3*2+4(10-10)+2)
+Current Postfix Expression: 1 2 3 2 * 4 10 10 - * + 2 + * + 
+1 > Enter new infix expression
+2 > Evaluate expression by array
+3 > Evaluate expression by single linked list
+4 > Evaluate expression by double linked list
+5 > Quit
+>> 4
+Evaluation: 17.0
+Time Elapsed: 357832
+
+Current Infix Expression: 1+2(3*2+4(10-10)+2)
+Current Postfix Expression: 1 2 3 2 * 4 10 10 - * + 2 + * + 
+1 > Enter new infix expression
+2 > Evaluate expression by array
+3 > Evaluate expression by single linked list
+4 > Evaluate expression by double linked list
+5 > Quit
+>> 1
+Enter a new expression: 4/5+1/5
+
+Current Infix Expression: 4/5+1/5
+Current Postfix Expression: 4 5 / 1 5 / + 
+1 > Enter new infix expression
+2 > Evaluate expression by array
+3 > Evaluate expression by single linked list
+4 > Evaluate expression by double linked list
+5 > Quit
+>> 2
+Evaluation: 1.0
+Time Elapsed: 203907
+
+Current Infix Expression: 4/5+1/5
+Current Postfix Expression: 4 5 / 1 5 / + 
+1 > Enter new infix expression
+2 > Evaluate expression by array
+3 > Evaluate expression by single linked list
+4 > Evaluate expression by double linked list
+5 > Quit
+>> 5
+
